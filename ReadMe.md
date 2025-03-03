@@ -1,1 +1,1 @@
-My attempy at creating an admin board
+My attempt at creating an admin board
