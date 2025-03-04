@@ -1,5 +1,6 @@
 :root {
     --backgroundColor: #578FCA;
+
 }
 
 * {
@@ -31,8 +32,18 @@ html {
     width: 300px;
 }
 
+.header>ul>li:hover {
+    cursor: pointer;
+}
+
+
+
 ul>li {
     list-style-type: none;
+}
+
+.sidebar>ul>li:hover {
+    background-color: gray;
 }
 
 .container {
@@ -43,20 +54,34 @@ ul>li {
 
 .sidebar {
     background-color: rgb(242, 127, 127);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
 
+}
 
+.sidebar>ul>li {
+    width: 100px;
 
+    padding: 32px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .custom {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
 
 }
 
-.overall {
-    grid-row: 1/2;
-}
+.overall {}
+
+.notifications {}
 
 .footer {
     height: 5%;
