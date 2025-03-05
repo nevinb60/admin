@@ -1,5 +1,7 @@
 :root {
     --backgroundColor: #e1edebd8;
+    --sidebarColor: rgb(166, 0, 255);
+    --selectBarcolor: rgb(129, 0, 199);
 }
 
 * {
@@ -23,7 +25,9 @@ html {
     background-color: var(--backgroundColor);
 }
 
-
+.home {
+    background-color: var(--selectBarcolor);
+}
 
 
 
@@ -71,7 +75,7 @@ ul>li {
 }
 
 .sidebar>ul>li:hover {
-    background-color: gray;
+    background-color: var(--selectBarcolor);
     cursor: pointer;
 }
 
@@ -87,7 +91,7 @@ ul>li {
 .sidebar {
     height: 100%;
     width: fit-content;
-    background-color: rgb(166, 0, 255);
+    background-color: var(--sidebarColor);
     grid-row: 1/-1;
     color: white;
     font-size: large;
