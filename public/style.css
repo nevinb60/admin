@@ -30,8 +30,6 @@ html {
 }
 
 
-
-
 .header {
     display: flex;
     flex-direction: row;
@@ -160,7 +158,6 @@ img:hover {
     cursor: pointer;
 }
 
-.case-acceptance {}
 
 .production {
     grid-column: 1/-1;
@@ -192,10 +189,6 @@ img:hover {
 .alert:hover {
     cursor: pointer;
 }
-
-.card {}
-
-
 
 
 .charts {
