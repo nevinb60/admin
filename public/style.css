@@ -1,7 +1,7 @@
 :root {
     --backgroundColor: #e1edebd8;
     --sidebarColor: rgb(166, 0, 255);
-    --selectBarcolor: rgb(129, 0, 199);
+    --selectBarcolor: rgb(186, 59, 255);
 }
 
 * {
@@ -26,7 +26,7 @@ html {
 }
 
 .home {
-    background-color: var(--selectBarcolor);
+    background-color: rgb(123, 0, 190);
 }
 
 
@@ -145,8 +145,12 @@ img:hover {
 
 
 .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: whitesmoke;
 
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 12px 12px 12px rgb(222, 224, 224);
 }
 
@@ -171,8 +175,8 @@ img:hover {
 }
 
 .alert-container {
-    border: solid black 2px;
-
+    background-color: whitesmoke;
+    border-radius: 15px;
     display: grid;
     gap: 20px;
 }
@@ -180,7 +184,8 @@ img:hover {
 .alert>p {
     text-align: center;
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 2px;
+    border-bottom: 2px rgba(159, 159, 159, 0.599) solid;
 
 }
 
@@ -188,14 +193,8 @@ img:hover {
     cursor: pointer;
 }
 
-.card {
-    background-color: whitesmoke;
-}
+.card {}
 
-
-.production {
-    text-align: center;
-}
 
 
 
